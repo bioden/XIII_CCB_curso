@@ -42,6 +42,8 @@ website:
             href: slides/slides1.pdf
           - text: "Caso de estudio"
             href: slides/slides.pdf
+      - text: "BIODEN"
+        href: https://bioden.github.io/bioden_website/
             
 
   page-footer:
