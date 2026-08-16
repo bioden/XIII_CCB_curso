@@ -1,0 +1,58 @@
+project:
+  type: website
+
+lang: es
+date-format: iso
+
+execute:
+    freeze: auto
+
+website:
+  title: "De la botánica a la bioinformática"
+  description: "Website del curso De la botánica a la bioinformática: estrategias para la identificación de metabolitos con potencial farmacológico - XIII Congreso Colombiano de Botánica"
+  site-url: https://bioden.github.io/bioden_website/
+  repo-url: https://github.com/bioden/bioden_website
+
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+
+  twitter-card:
+    card-style: summary_large_image
+
+  open-graph: true
+
+  navbar:
+    # logo: images/logo_reproducible_quarto.png
+    right:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Preparación"
+        href: paginas/index.qmd
+      - text: "Presentaciones - Material de estudio"
+        menu:
+          - text: "Conceptualizaciones, plantas, conservación y medicina tradicional"
+            href: slides/slides1.pdf
+          - text: "Transiciones entre la medicina tradicional al enfoque experimental"
+            href: slides/slides1.pdf
+          - text: "De lo experimental a lo computacional"
+            href: slides/slides1.pdf
+          - text: "Priorización de metabolitos y diseño racional de fármacos"
+            href: slides/slides1.pdf
+          - text: "Caso de estudio"
+            href: slides/slides.pdf
+            
+
+  page-footer:
+    center: Made by [Xavier Clemente García Cevallos](https://xavierclementegarcia.github.io/) with R and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+
+format:
+  html:
+    margin-header: |
+      ![Semillero de Biología del Desarrollo y Plasticidad Neural - BIODEN](/images/images.jpg)
+    theme: 
+      light: zephyr
+      dark: darkly
+    smooth-scroll: true
+    css: styles.css
+    toc: true
