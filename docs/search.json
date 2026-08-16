@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "paginas/index.html",
+    "href": "paginas/index.html",
+    "title": "Instalación y primeros pasos",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "De la botánica a la bioinformática",
+    "section": "",
+    "text": "Sitio web del curso precongreso de la botánica a la bioinformática: estrategias para la identificación de metabolitos con potencial farmacológico\n📅 Fecha: 3 y 4 de noviembre del 2026\n🕐 Horario: Por confirmar\n📍 Lugar: Medellín, Colombia\n👥 Cupos: 20\n💰 Inversión: 110.000 COP\n📝 Inscripción: en la página del XIII Congreso Colombiano de Botánica\n✉️ Contacto: xgarcia@unicauca.edu.co"
+  },
+  {
+    "objectID": "index.html#unidad-0-prefacio",
+    "href": "index.html#unidad-0-prefacio",
+    "title": "De la botánica a la bioinformática",
+    "section": "Unidad 0: Prefacio",
+    "text": "Unidad 0: Prefacio\n\nInstalación de programas y primeros pasos"
+  },
+  {
+    "objectID": "index.html#día-1",
+    "href": "index.html#día-1",
+    "title": "De la botánica a la bioinformática",
+    "section": "Día 1",
+    "text": "Día 1\n\nUnidad 1: Conceptualizaciones, plantas, conservación y medicina tradicional\n\nHistoria del uso de las plantas y origen de la etnobotánica\nEtnomedicina y etnofarmacognosia\nAspecto éticos de la etnobotánica y la etnofarmacología\n\n\n\nUnidad 2: Transiciones entre la medicina tradicional al enfoque experimental\n\nMétodos de extracción de comppuestos vegetales\nTécnicas de cuantificación de principios activos\nEstrategias de caracterización de preparados etnomedicinales\n\n\n\nUnidad 3: De lo experimental a lo computacional\n\nConcepto de proteína y ligando\nBiodisponibilidad y farmacodinámica\nMétodos de validación experimental\nPresentación de bases de datos"
+  },
+  {
+    "objectID": "index.html#día-2",
+    "href": "index.html#día-2",
+    "title": "De la botánica a la bioinformática",
+    "section": "Día 2",
+    "text": "Día 2\n\nUnidad 4: Priorización de metabolitos y diseño racional de fármacos\n\nCriterios de selección y principios ADMET\n¿Qué es el diseño racional de fármacos?\n¿Qué es el acoplamiento molecular?\nLimitaciones metodológicas y perspectivas futuras\n\n\n\nUnidad 5: Caso de estudio\n\nSelección de especie vegetal\nConstrucción de matriz potencial de metabolitos\nPriorización según criterios ADMET\nPredicción de blancos moleculares\nPredicción de actividad biológica y toxicológica\nAcoplamiento molecular proteína-ligando\nVisualización y análisis de interacciones"
+  }
+]

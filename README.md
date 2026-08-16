@@ -1,9 +1,3 @@
----
-title: "De la botánica a la bioinformática"
-subtitle: "Curso en el XIII Congreso Colombiano de Botánica <br>Medellín, Colombia <br>Noviembre 5 al 9 del 2026"
-output: html_document
----
-
 Sitio web del curso precongreso de la botánica a la bioinformática: estrategias para la identificación de metabolitos con potencial farmacológico
 
 📅 **Fecha:** 3 y 4 de noviembre del 2026
