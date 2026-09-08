@@ -11,7 +11,7 @@ Sitio web del curso precongreso de la botánica a la bioinformática: estrategia
 
 📍 **Lugar:** Medellín, Colombia
 
-👥 **Cupos:** 20
+👥 **Cupos:** 10
 
 💰 **Inversión:** 110.000 COP
 
@@ -25,13 +25,13 @@ Durante milenios, la medicina tradicional ha sido preservada por comunidades ind
 
 # Objetivos del curso
 
--   Describir el uso y aplicación de algunas herramientas bioinformáticas para la identificación de metabolitos fitoquímicos con potencial farmacéutico.
+- Describir el uso y aplicación de algunas herramientas bioinformáticas para la identificación de metabolitos fitoquímicos con potencial farmacéutico.
 
--   Identificar y caracterizar plantas medicinales con potencial farmacológico.
+- Identificar y caracterizar plantas medicinales con potencial farmacológico.
 
--   Describir el uso de algunos softwares utilizados en la identificación de metabolitos con potencial terapéutico.
+- Describir el uso de algunos softwares utilizados en la identificación de metabolitos con potencial terapéutico.
 
--   Aplicar software en ejercicios reales para la identificación de metabolitos con potencial farmacológico. 
+- Aplicar software en ejercicios reales para la identificación de metabolitos con potencial farmacológico.
 
 # Metodología
 
@@ -41,14 +41,14 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 
 # Requisitos
 
--   Debido a las restricciones sujetas por la institución organizadora, se requiere que cada participante disponga de su propio ordenador personal. En este equipo, deberá estar instalado el software requerido para la ejecución del mismo. 
--   No se requieren conocimientos previos.
+- Debido a las restricciones sujetas por la institución organizadora, se requiere que cada participante disponga de su propio ordenador personal. En este equipo, deberá estar instalado el software requerido para la ejecución del mismo.
+- No se requieren conocimientos previos.
 
 # Instructores
 
-***
+------------------------------------------------------------------------
 
-::: columns
+:::::: columns
 ::: {.column width="25%"}
 ![](images/xavier.jpg)
 :::
@@ -59,13 +59,13 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 ::: {.column width="70%"}
 [**Xavier Clemente García Cevallos**](https://xavierclementegarcia.github.io/) Estudiante de Biología interesado en biología computacional, descubrimiento de fármacos y biología molecular. Experiencia en bioinformática estructural, acoplamiento molecular, análisis ADMET y programación científica (R y Python), complementada con investigación en productos naturales y enfermedades neurodegenerativas. Autor de publicaciones científicas y ponente en congresos nacionales e internacionales.
 :::
-:::
+::::::
 
-***
+------------------------------------------------------------------------
 
-***
+------------------------------------------------------------------------
 
-::: columns
+:::::: columns
 ::: {.column width="25%"}
 ![](images/ariadna.jpg)
 :::
@@ -76,13 +76,13 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 ::: {.column width="70%"}
 [**Ariadna Vasquez Ledezma**](https://bioden.github.io/bioden_website/integrantes/ariadna.html) Se desempeña en el área de Toxicología Genética y Citogenética, con enfoque en Epigenética, Biología del Desarrollo y Salud Ambiental. Su trabajo se centra en la evaluación de factores de riesgo asociados a la exposición a contaminantes, integrando herramientas moleculares y celulares para comprender los mecanismos de daño genético. Actualmente desarrolla investigaciones sobre los efectos del material particulado en la salud humana, especialmente en poblaciones ocupacionalmente expuestas, con el objetivo de aportar evidencia científica que oriente estrategias de prevención y protección de la salud.
 :::
-:::
+::::::
 
-***
+------------------------------------------------------------------------
 
-***
+------------------------------------------------------------------------
 
-::: columns
+:::::: columns
 ::: {.column width="25%"}
 ![](images/sebastian.png)
 :::
@@ -93,14 +93,13 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 ::: {.column width="70%"}
 [**Sebastian Scalante Aguillón**](https://bioden.github.io) Pendiente de descripción para el curso
 :::
-:::
+::::::
 
-***
+------------------------------------------------------------------------
 
+------------------------------------------------------------------------
 
-***
-
-::: columns
+:::::: columns
 ::: {.column width="25%"}
 ![](images/willian.jpg)
 :::
@@ -109,53 +108,57 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 :::
 
 ::: {.column width="70%"}
-[**Willian Orlando Castillo Ordóñez, PhD**](https://bioden.github.io/bioden_website/integrantes/Willian_Castillo.html) Es Biólogo y actualmente profesor del Departamento de Biología de la Universidad del Cauca. Obtuvo su doctorado en Genética por la Facultad de Medicina de la Universidad de Sao Paulo–Brasil con investigación dirigida a la identificación de compuestos de origen vegetal como moduladores de la Enfermedad de Alzheimer. Su investigación se focaliza en las propiedades anticolinesterásicas y antioxidantes de vegetales pertenecientes a la familia Amaryllidaceae; integrando estudios mecanísticos de antimutagenicidad, neurotoxicidad, neuroprotección, diferenciación celular, reparación y regulación epigenética del ADN; complementando con métodos de predicción en Sílico: Simulación por Docking y Dinámica Molecular.
+[**Willian Orlando Castillo Ordóñez, PhD**](https://bioden.github.io/bioden_website/integrantes/Willian_Castillo.html) Es Biólogo y actualmente profesor del Departamento de Biología de la Universidad del Cauca. Obtuvo su doctorado en Genética por la Facultad de Medicina de la Universidad de Sao Paulo–Brasil con investigación dirigida a la identificación de compuestos de origen vegetal como moduladores de la Enfermedad de Alzheimer. Su investigación se focaliza en las propiedades anticolinesterásicas y antioxidantes de vegetales pertenecientes a la familia Amaryllidaceae; integrando estudios mecanísticos de antimutagenicidad, neurotoxicidad, neuroprotección, diferenciación celular, reparación y regulación epigenética del ADN; complementando con métodos de predicción *in silico*: Simulación por Docking y Dinámica Molecular.
 :::
-:::
+::::::
 
-***
-
+------------------------------------------------------------------------
 
 # Contenido del curso
 
 ## Unidad 0: Prefacio
 
--   [Instalación de programas y primeros pasos](paginas/index.qmd)
+- [Instalación de programas y primeros pasos](paginas/index.qmd)
 
 ## Día 1
 
-### Unidad 1: Conceptualizaciones, plantas, conservación y medicina tradicional 
+### Unidad 1: Conceptualizaciones, plantas, conservación y medicina tradicional
 
--   Historia del uso de las plantas y origen de la etnobotánica
--   Etnomedicina y etnofarmacognosia
--   Aspecto éticos de la etnobotánica y la etnofarmacología
+- Historia del uso de las plantas y origen de la etnobotánica
+- Etnomedicina y etnofarmacognosia
+- Aspecto éticos de la etnobotánica y la etnofarmacología
 
 ### Unidad 2: Transiciones entre la medicina tradicional al enfoque experimental
--   Métodos de extracción de comppuestos vegetales
--   Técnicas de cuantificación de principios activos
--   Estrategias de caracterización de preparados etnomedicinales 
+
+- Métodos de extracción de comppuestos vegetales
+- Técnicas de cuantificación de principios activos
+- Estrategias de caracterización de preparados etnomedicinales
 
 ### Unidad 3: De lo experimental a lo computacional
--   Concepto de proteína y ligando
--   Biodisponibilidad y farmacodinámica
--   Métodos de validación experimental 
--   Presentación de bases de datos
 
-## Día 2 
-### Unidad 4: Priorización de metabolitos y diseño racional de fármacos  
--   Criterios de selección y principios ADMET 
--   ¿Qué es el diseño racional de fármacos? 
--   ¿Qué es el acoplamiento molecular?
--   Limitaciones metodológicas y perspectivas futuras
+- Concepto de proteína y ligando
+- Biodisponibilidad y farmacodinámica
+- Métodos de validación experimental
+- Presentación de bases de datos
+
+## Día 2
+
+### Unidad 4: Priorización de metabolitos y diseño racional de fármacos
+
+- Criterios de selección y principios ADMET
+- ¿Qué es el diseño racional de fármacos?
+- ¿Qué es el acoplamiento molecular?
+- Limitaciones metodológicas y perspectivas futuras
 
 ### Unidad 5: Caso de estudio
--   Selección de especie vegetal
--   Construcción de matriz potencial de metabolitos
--   Priorización según criterios ADMET
--   Predicción de blancos moleculares
--   Predicción de actividad biológica y toxicológica
--   Acoplamiento molecular proteína-ligando
--   Visualización y análisis de interacciones 
+
+- Selección de especie vegetal
+- Construcción de matriz potencial de metabolitos
+- Priorización según criterios ADMET
+- Predicción de blancos moleculares
+- Predicción de actividad biológica y toxicológica
+- Acoplamiento molecular proteína-ligando
+- Visualización y análisis de interacciones
 
 # Licencia
 
