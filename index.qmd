@@ -5,15 +5,15 @@ subtitle: "Curso en el XIII Congreso Colombiano de Botánica <br>Medellín, Colo
 
 Sitio web del curso precongreso de la botánica a la bioinformática: estrategias para la identificación de metabolitos con potencial farmacológico
 
-📅 **Fecha:** 3 y 4 de noviembre del 2026
+📅 **Fecha:** 3 y 4 de octubre del 2026
 
-🕐 **Horario:** Por confirmar
+🕐 **Horario:** 8:00 AM - 17:00 PM
 
-📍 **Lugar:** Medellín, Colombia
+📍 **Lugar:** Medellín, Colombia - Instituto Tecnológico Metropolitano (ITM), Sede Robledo [(Ubicación)](https://www.openstreetmap.org/way/269921174#map=18/6.274709/-75.588599)
 
 👥 **Cupos:** 10
 
-💰 **Inversión:** 110.000 COP
+💰 **Inversión:** 110.000 COP (Estudiantes y profesionales)
 
 📝 **Inscripción:** en la página del [XIII Congreso Colombiano de Botánica](https://acb.org.co/xiiiccb2026/)
 
@@ -84,7 +84,7 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 
 :::::: columns
 ::: {.column width="25%"}
-![](images/sebastian.png)
+![](images/sebastian.jpg)
 :::
 
 ::: {.column width="5%"}

@@ -1,0 +1,14 @@
+---
+title: "Activación de PyMOL con licencia educativa"
+format: html
+---
+
+### Obtención de licencia educativa de PyMOL.
+
+1.  Ingresar al siguiente [enlace](https://pymol.org/edu/).
+
+2.  Llenar el formulario y en su correo recibirá un correo con una contraseña y usuario.
+
+3.  El archivo descargable será una licencia que puede abrir desde PyMOL una vez este se esté ejecutando.
+
+4.  Activación finalizada.

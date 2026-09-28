@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Instalación y primeros pasos – De la botánica a la bioinformática</title>
+<title>Activación de PyMOL con licencia educativa – De la botánica a la bioinformática</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,11 +78,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Instalación y primeros pasos – De la botánica a la bioinformática">
-<meta property="og:description" content="Website del curso De la botánica a la bioinformática: estrategias para la identificación de metabolitos con potencial farmacológico - XIII Congreso Colombiano de Botánica">
+<meta property="og:title" content="Activación de PyMOL con licencia educativa – De la botánica a la bioinformática">
 <meta property="og:site_name" content="De la botánica a la bioinformática">
-<meta name="twitter:title" content="Instalación y primeros pasos – De la botánica a la bioinformática">
-<meta name="twitter:description" content="Website del curso De la botánica a la bioinformática: estrategias para la identificación de metabolitos con potencial farmacológico - XIII Congreso Colombiano de Botánica">
+<meta name="twitter:title" content="Activación de PyMOL con licencia educativa – De la botánica a la bioinformática">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -270,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../paginas/index.html" aria-current="page"> 
+    <a class="nav-link" href="../paginas/index.html"> 
 <span class="menu-text">Preparación</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -328,16 +326,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#pasos-iniciales" id="toc-pasos-iniciales" class="nav-link active" data-scroll-target="#pasos-iniciales">Pasos iniciales</a></li>
-  <li><a href="#programas-web-para-usar" id="toc-programas-web-para-usar" class="nav-link" data-scroll-target="#programas-web-para-usar">Programas web para usar</a></li>
-  <li><a href="#software-para-descargar" id="toc-software-para-descargar" class="nav-link" data-scroll-target="#software-para-descargar">Software para descargar</a></li>
-  <li><a href="#instalación-de-los-programas" id="toc-instalación-de-los-programas" class="nav-link" data-scroll-target="#instalación-de-los-programas">Instalación de los programas</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
-  <li><a href="#r-studio" id="toc-r-studio" class="nav-link" data-scroll-target="#r-studio">R Studio</a></li>
-  <li><a href="#open-babel" id="toc-open-babel" class="nav-link" data-scroll-target="#open-babel">Open Babel</a></li>
-  <li><a href="#autodock-vina" id="toc-autodock-vina" class="nav-link" data-scroll-target="#autodock-vina">AutoDock Vina</a></li>
-  <li><a href="#autodocktools-mgltools" id="toc-autodocktools-mgltools" class="nav-link" data-scroll-target="#autodocktools-mgltools">AutoDockTools /MGLTools</a></li>
-  <li><a href="#pymol" id="toc-pymol" class="nav-link" data-scroll-target="#pymol">PyMOL</a></li>
+  <li><a href="#obtención-de-licencia-educativa-de-pymol." id="toc-obtención-de-licencia-educativa-de-pymol." class="nav-link active" data-scroll-target="#obtención-de-licencia-educativa-de-pymol.">Obtención de licencia educativa de PyMOL.</a></li>
   </ul>
 </nav>
     </div>
@@ -347,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Instalación y primeros pasos</h1>
+<h1 class="title">Activación de PyMOL con licencia educativa</h1>
 </div>
 
 
@@ -364,318 +353,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="pasos-iniciales" class="level3">
-<h3 class="anchored" data-anchor-id="pasos-iniciales">Pasos iniciales</h3>
-<p>Esta guía de instalación tiene como objetivo ser un soporte para el estudiante durante la duración del curso. Durante todo el curso se utilizaran herramientas web y programas de escritoriio para trabajar con estructuras moleculares, análisis ADMET, acoplamiento molecular y procesamiento de datos.</p>
-<p><strong>Debe recordarse que cada participante debe llevar su propio ordenador personal y realizar la instalación antes o durante el inicio del curso</strong></p>
-<p>⚠️ Importante: no esperes hasta el primer día del curso para instalar todos los programas. Algunas instalaciones pueden requerir permisos de administrador, paquetes adicionales o configuración del sistema.</p>
-</section>
-<section id="programas-web-para-usar" class="level3">
-<h3 class="anchored" data-anchor-id="programas-web-para-usar">Programas web para usar</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Programa</th>
-<th style="text-align: left;">Uso durante el curso</th>
-<th style="text-align: center;">Instalación</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>SwissADME</strong></td>
-<td style="text-align: left;">Propiedades fisicoquímicas y ADME</td>
-<td style="text-align: center;"><a href="https://www.swissadme.ch/">Sitio Web</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>SwissTargetPrediction</strong></td>
-<td style="text-align: left;">Predicción de posibles dianas</td>
-<td style="text-align: center;"><a href="https://github.com/openbabel/openbabel/releases/download/openbabel-3-1-0/OpenBabel-3.1.0-x64.exe">Sitio Web</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>PASS Online</strong></td>
-<td style="text-align: left;">Predicción de actividad biológica</td>
-<td style="text-align: center;"><a href="https://vina.scripps.edu/downloads/">Sitio Web</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>PubChem</strong></td>
-<td style="text-align: left;">Consulta de estructuras y propiedades</td>
-<td style="text-align: center;"><a href="https://ccsb.scripps.edu/mgltools/">Sitio Web</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Protein Data Bank (PDB)</strong></td>
-<td style="text-align: left;">Obtención de estructuras proteicas</td>
-<td style="text-align: center;"><a href="https://www.pymol.org/">Sitio Web</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>ChemSpyder</strong></td>
-<td style="text-align: left;">Consulta de estructuras y propiedades</td>
-<td style="text-align: center;"><a href="https://www.chemspider.com/">Sitio Web</a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Nota:</strong> En caso de que PubChem o ChemSpyder puedan estar caídas, se pasarán durante el curso el material necesario. El cual también está disponible <strong>aquí.</strong></p>
-</section>
-<section id="software-para-descargar" class="level3">
-<h3 class="anchored" data-anchor-id="software-para-descargar">Software para descargar</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Programa</th>
-<th style="text-align: left;">Uso durante el curso</th>
-<th style="text-align: center;">Enlace</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>R / RStudio</strong></td>
-<td style="text-align: left;">Procesamiento y análisis de datos</td>
-<td style="text-align: center;"><a href="https://cloud.r-project.org/">R</a> · <a href="https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe">RStudio</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Open Babel</strong></td>
-<td style="text-align: left;">Conversión y manipulación de estructuras</td>
-<td style="text-align: center;"><a href="https://github.com/openbabel/openbabel/releases/download/openbabel-3-1-0/OpenBabel-3.1.0-x64.exe">Descargar</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>AutoDock Vina</strong></td>
-<td style="text-align: left;">Acoplamiento molecular</td>
-<td style="text-align: center;"><a href="https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_win.exe">Descargar</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>AutoDockTools / MGLTools</strong></td>
-<td style="text-align: left;">Preparación de receptores y ligandos</td>
-<td style="text-align: center;"><a href="https://ccsb.scripps.edu/mgltools/">Descargar</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>PyMOL</strong></td>
-<td style="text-align: left;">Visualización y análisis estructural</td>
-<td style="text-align: center;"><a href="https://www.pymol.org/">Descargar</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Navegador web actualizado</strong></td>
-<td style="text-align: left;">Acceso a plataformas bioinformáticas</td>
-<td style="text-align: center;">No requiere instalación</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Nota:</strong> <a href="https://www.pymol.org/">PyMOL</a> cuenta con una licencia educativa para extender el tiempo de uso de la aplicación. Para saber como activar la licencia por favor dirigirse <a href="paginas/pymol_education.qmd">aquí</a>.</p>
-</section>
-<section id="instalación-de-los-programas" class="level3">
-<h3 class="anchored" data-anchor-id="instalación-de-los-programas">Instalación de los programas</h3>
-<p>Es posible que el usuario cuente con un sistema operativo diferente en su ordenador. Para el curso se recomienda mantenerse en Windows.</p>
-</section>
-<section id="r" class="level3">
-<h3 class="anchored" data-anchor-id="r">R</h3>
-<section id="windows" class="level5">
-<h5 class="anchored" data-anchor-id="windows">Windows</h5>
+<section id="obtención-de-licencia-educativa-de-pymol." class="level3">
+<h3 class="anchored" data-anchor-id="obtención-de-licencia-educativa-de-pymol.">Obtención de licencia educativa de PyMOL.</h3>
 <ol type="1">
-<li>Ingresar a la página oficial de <a href="https://cloud.r-project.org/">R</a> y descargar el programa ‘exe’.</li>
-<li>Una vez abierto, seguir las instrucciones del instalador y ejecutar una vez finalizado.</li>
+<li><p>Ingresar al siguiente <a href="https://pymol.org/edu/">enlace</a>.</p></li>
+<li><p>Llenar el formulario y en su correo recibirá un correo con una contraseña y usuario.</p></li>
+<li><p>El archivo descargable será una licencia que puede abrir desde PyMOL una vez este se esté ejecutando.</p></li>
+<li><p>Activación finalizada.</p></li>
 </ol>
-</section>
-<section id="mac-os" class="level5">
-<h5 class="anchored" data-anchor-id="mac-os">Mac OS</h5>
-<ol type="1">
-<li>Ingresar al siguiente <a href="https://cran.r-project.org/bin/macosx/">enlace</a> para obtener la versión de este SO.</li>
-<li>Seleccione el instalador correspondiente a su arquitectura.</li>
-<li>Descargar el archivo ‘.pkg’.</li>
-<li>Abrir el instalador y seguir las instrucciones hasta finalizar.</li>
-</ol>
-</section>
-<section id="linux" class="level5">
-<h5 class="anchored" data-anchor-id="linux">Linux</h5>
-<p>En <strong>Ubuntu/Debian</strong>, R puede ser incorporado mediante los repositorios del sistema o siguiendo las instalaciones manuales. <strong>Esto aplica si utiliza WSL también</strong>.</p>
-<p>Opción A:</p>
-<ol type="1">
-<li>Dirigirse al siguiente <a href="https://cran.r-project.org/bin/linux/">enlace</a>.</li>
-</ol>
-<p>Opción B:</p>
-<ol type="1">
-<li>Abrir la consola y correr el siguiente script:</li>
-</ol>
-<pre class="{bash}"><code>sudo apt update
-sudo apt install r-base</code></pre>
-<ol start="2" type="1">
-<li>Podrá acceder desde el cajón de aplicaciones.</li>
-<li>Para comprobar la versión deberá correr:</li>
-</ol>
-<pre class="{bash}"><code>R --version</code></pre>
-<p>Si se ha instalado correctamente, aparecerá la versión instalada.</p>
-</section>
-</section>
-<section id="r-studio" class="level3">
-<h3 class="anchored" data-anchor-id="r-studio">R Studio</h3>
-<section id="windows-1" class="level5">
-<h5 class="anchored" data-anchor-id="windows-1">Windows</h5>
-<ol type="1">
-<li>Ingresar a <a href="https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe">RStudio</a> y descargar la versión para Windows.</li>
-<li>Ejecutar el ‘.exe’ y seguir los pasos del instalador.</li>
-</ol>
-</section>
-<section id="mac-os-1" class="level5">
-<h5 class="anchored" data-anchor-id="mac-os-1">Mac OS</h5>
-<ol type="1">
-<li>Ingresar a <a href="https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe">RStudio</a> y descargar la versión de Mac ‘.dmg’</li>
-<li>Abrir el archivo y arrastrar RStudio a la carpeta aplicaciones.</li>
-</ol>
-<p><strong>Nota:</strong> Las versiones actuales de RStudio Desktop requieren versiones relativamente recientes de macOS; revisa los requisitos indicados por Posit antes de instalar.</p>
-</section>
-<section id="linux-1" class="level5">
-<h5 class="anchored" data-anchor-id="linux-1">Linux</h5>
-<ol type="1">
-<li>Ingresar a <a href="https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe">RStudio</a> y descargar la versión correspondiente de su distribución.</li>
-<li>Otra opción es a través de la terminal mediante:</li>
-</ol>
-<pre class="{bash}"><code>sudo apt install ./rstudio-*.deb</code></pre>
-</section>
-</section>
-<section id="open-babel" class="level3">
-<h3 class="anchored" data-anchor-id="open-babel">Open Babel</h3>
-<p>Open Babel permite convertir y manipular estructuras químicas en diferentes formatos.</p>
-<section id="windows-2" class="level5">
-<h5 class="anchored" data-anchor-id="windows-2">Windows</h5>
-<ol type="1">
-<li>Ingresar a la documentación oficial de Open Babel.</li>
-<li>Selecciona la versión para Windows disponible.</li>
-<li>Descargar el instalador correspondiente a tu sistema.</li>
-<li>Ejecutar el instalador y seguir las instrucciones.</li>
-<li>Finalizar la instalación.</li>
-</ol>
-</section>
-<section id="mac-os-2" class="level5">
-<h5 class="anchored" data-anchor-id="mac-os-2">Mac OS</h5>
-<p>Open Babel puede instalarse mediante un paquete disponible para MacOS mediante gestores de paquete. La opción más sencilla es utilizando <strong>Homebrew</strong></p>
-<pre class="{bash}"><code>brew install open-babel</code></pre>
-<p>En caso de no tener instalado <strong>Homebrew</strong> consultar <a href="https://brew.sh/">aquí</a></p>
-</section>
-<section id="linux-2" class="level5">
-<h5 class="anchored" data-anchor-id="linux-2">Linux</h5>
-<p>En Ubuntu/Debian puede instalarse mediante</p>
-<ol type="1">
-<li>Abrir la terminal y correr el siguiente script:</li>
-</ol>
-<pre class="{bash}"><code>sudo apt update
-sudo apt install openbabel</code></pre>
-<ol start="2" type="1">
-<li>Comprobar la instalación:</li>
-</ol>
-<pre class="{bash}"><code>obabel -V</code></pre>
-</section>
-</section>
-<section id="autodock-vina" class="level3">
-<h3 class="anchored" data-anchor-id="autodock-vina">AutoDock Vina</h3>
-<section id="windows-3" class="level5">
-<h5 class="anchored" data-anchor-id="windows-3">Windows</h5>
-<p>AutoDock Vina será utilizado como motor de acoplamiento molecular.</p>
-<p>Las versiones actuales de AutoDock Vina se distribuyen mediante el repositorio oficial del proyecto.</p>
-<ol type="1">
-<li><p>Descargar mediante este <a href="https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_win.exe">enlace</a>.</p></li>
-<li><p>Una vez descargado se recomienda usar esta dirección generalmente:</p>
-<p><code>C:\AutoDockVina\</code></p></li>
-<li><p>Para usar vina desde la terminal siempre, agregar al entorno PATH de WIndows.</p></li>
-</ol>
-</section>
-<section id="mac-os-3" class="level5">
-<h5 class="anchored" data-anchor-id="mac-os-3">Mac OS</h5>
-<ol type="1">
-<li>Descargar la versión correspondiente a macOS.</li>
-<li>Instalar y seguir los pasos del ejecutable.</li>
-</ol>
-</section>
-<section id="linux-3" class="level5">
-<h5 class="anchored" data-anchor-id="linux-3">Linux</h5>
-<ol type="1">
-<li><p>Descargar la versión correspondiente a su distribución.</p></li>
-<li><p>La instalación se hará de esta manera:</p>
-<pre class="{bash}"><code>tar -xzf archivo_descargado.tar.gz</code></pre></li>
-<li><p>Conceder permisos de ejecución:</p>
-<pre class="{bash}"><code>chmod +x vina*</code></pre></li>
-<li><p>Al igual que en windows puede agregarse al entorno PATH.</p></li>
-<li><p>Comprobar la versión instalada:</p>
-<pre class="{bash}"><code>vina --version</code></pre></li>
-</ol>
-</section>
-</section>
-<section id="autodocktools-mgltools" class="level3">
-<h3 class="anchored" data-anchor-id="autodocktools-mgltools">AutoDockTools /MGLTools</h3>
-<p>AutoDockTools (ADT) forma parte del paquete MGLTools y proporciona herramientas gráficas para preparar receptores y ligandos y trabajar con AutoDock.</p>
-<section id="windows-4" class="level5">
-<h5 class="anchored" data-anchor-id="windows-4">Windows</h5>
-<ol type="1">
-<li>Ingresar a la página oficial de <a href="https://ccsb.scripps.edu/mgltools/">MGLTools</a>.</li>
-<li>Buscar MGLTools 1.5.7.</li>
-<li>Descargar la versión ‘.exe’.</li>
-<li>Instalar y seguir las indicaciones necesarias.</li>
-<li>Puede ser abierto mediante su ícono o a través del bash</li>
-</ol>
-<pre class="{bash}"><code>adt</code></pre>
-</section>
-<section id="mac-os-4" class="level5">
-<h5 class="anchored" data-anchor-id="mac-os-4">Mac OS</h5>
-<ol type="1">
-<li>Ingresar a la página oficial de <a href="https://ccsb.scripps.edu/mgltools/">MGLTools</a>.</li>
-<li>Descargar la versión proporcionada para su sistema ‘.dmg’.</li>
-<li>Una vez instalado, buscar AutoDockTools o ADT en el menú de aplicaciones.</li>
-</ol>
-<p><strong>Nota:</strong> Si MGLTools no funciona correctamente en un Mac moderno, será necesario utilizar una alternativa de compatibilidad, como una máquina virtual con un sistema operativo compatible.</p>
-</section>
-<section id="linux-4" class="level5">
-<h5 class="anchored" data-anchor-id="linux-4">Linux</h5>
-<ol type="1">
-<li>Ingresar a la página oficial de <a href="https://ccsb.scripps.edu/mgltools/">MGLTools</a>.</li>
-<li>Una vez instalado, el archivo debe ser parecido a este:</li>
-</ol>
-<pre class="{bash}"><code>chmod +x mgltools_Linux-x86_64_1.5.7_Install</code></pre>
-<ol start="3" type="1">
-<li>Posteriormente, deberá instalar desde la términal:</li>
-</ol>
-<pre class="{bash}"><code>./mgltools_Linux-x86_64_1.5.7_Install</code></pre>
-<ol start="4" type="1">
-<li>Para comprobar la instalación revisar que esté disponible en el menú de aplicaciones.</li>
-</ol>
-</section>
-</section>
-<section id="pymol" class="level3">
-<h3 class="anchored" data-anchor-id="pymol">PyMOL</h3>
-<section id="windows-5" class="level5">
-<h5 class="anchored" data-anchor-id="windows-5">Windows</h5>
-<ol type="1">
-<li>Ingresar a la página oficial de <a href="https://www.pymol.org/">PyMOL</a>.</li>
-<li>Descargar el instalador para Windows.</li>
-<li>Ejecutar el archivo ‘.exe’.</li>
-<li>Sigue las instrucciones del instalador y finalizar la instalación.</li>
-</ol>
-</section>
-<section id="mac-os-5" class="level5">
-<h5 class="anchored" data-anchor-id="mac-os-5">Mac OS</h5>
-<ol type="1">
-<li>Ingresar a la página oficial de <a href="https://www.pymol.org/">PyMOL</a>.</li>
-<li>Descargar el archivo ‘.dmg’ correspondiente a macOS.</li>
-<li>Abrir el archivo y arrastrar PyMOL a aplicaciones.</li>
-<li>Abrir PyMOL.</li>
-</ol>
-</section>
-<section id="linux-5" class="level5">
-<h5 class="anchored" data-anchor-id="linux-5">Linux</h5>
-<ol type="1">
-<li>Ingresar a la página oficial de <a href="https://www.pymol.org/">PyMOL</a>.</li>
-<li>Descargar el archivo <code>.tar.bz2</code></li>
-<li>Abre una terminal y ve la carpeta donde descargaste el archivo.</li>
-<li>Extraer el contenido:</li>
-</ol>
-<pre class="{bash}"><code>tar -xjf PyMOL-*.tar.bz2</code></pre>
-<ol start="5" type="1">
-<li>Entrar a la carpeta resultante:</li>
-</ol>
-<pre class="{bash}"><code>cd pymol</code></pre>
-<ol start="6" type="1">
-<li>Ejecutar PyMOL:</li>
-</ol>
-<pre class="{bash}"><code>./pymol</code></pre>
-<p><strong>Nota:</strong> Si la instalación no es correcta o no ejecuta el programa, puede revisar la documentación original de instalación para Linux.</p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->

@@ -2,3 +2,270 @@
 title: "Instalación y primeros pasos"
 format: html
 ---
+
+### Pasos iniciales
+
+Esta guía de instalación tiene como objetivo ser un soporte para el estudiante durante la duración del curso. Durante todo el curso se utilizaran herramientas web y programas de escritoriio para trabajar con estructuras moleculares, análisis ADMET, acoplamiento molecular y procesamiento de datos.
+
+**Debe recordarse que cada participante debe llevar su propio ordenador personal y realizar la instalación antes o durante el inicio del curso**
+
+⚠️ Importante: no esperes hasta el primer día del curso para instalar todos los programas. Algunas instalaciones pueden requerir permisos de administrador, paquetes adicionales o configuración del sistema.
+
+### Programas web para usar
+
+| Programa | Uso durante el curso | Instalación |
+|:---------------------|:---------------------|:--------------------------:|
+| **SwissADME** | Propiedades fisicoquímicas y ADME | [Sitio Web](https://www.swissadme.ch/) |
+| **SwissTargetPrediction** | Predicción de posibles dianas | [Sitio Web](https://github.com/openbabel/openbabel/releases/download/openbabel-3-1-0/OpenBabel-3.1.0-x64.exe) |
+| **PASS Online** | Predicción de actividad biológica | [Sitio Web](https://vina.scripps.edu/downloads/) |
+| **PubChem** | Consulta de estructuras y propiedades | [Sitio Web](https://ccsb.scripps.edu/mgltools/) |
+| **Protein Data Bank (PDB)** | Obtención de estructuras proteicas | [Sitio Web](https://www.pymol.org/) |
+| **ChemSpyder** | Consulta de estructuras y propiedades | [Sitio Web](https://www.chemspider.com/) |
+
+**Nota:** En caso de que PubChem o ChemSpyder puedan estar caídas, se pasarán durante el curso el material necesario. El cual también está disponible **aquí.**
+
+### Software para descargar
+
+| Programa | Uso durante el curso | Enlace |
+|:---------------------|:---------------------|:--------------------------:|
+| **R / RStudio** | Procesamiento y análisis de datos | [R](https://cloud.r-project.org/) · [RStudio](https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe) |
+| **Open Babel** | Conversión y manipulación de estructuras | [Descargar](https://github.com/openbabel/openbabel/releases/download/openbabel-3-1-0/OpenBabel-3.1.0-x64.exe) |
+| **AutoDock Vina** | Acoplamiento molecular | [Descargar](https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_win.exe) |
+| **AutoDockTools / MGLTools** | Preparación de receptores y ligandos | [Descargar](https://ccsb.scripps.edu/mgltools/) |
+| **PyMOL** | Visualización y análisis estructural | [Descargar](https://www.pymol.org/) |
+| **Navegador web actualizado** | Acceso a plataformas bioinformáticas | No requiere instalación |
+
+**Nota:** [PyMOL](https://www.pymol.org/) cuenta con una licencia educativa para extender el tiempo de uso de la aplicación. Para saber como activar la licencia por favor dirigirse [aquí](paginas/pymol_education.qmd).
+
+### Instalación de los programas
+
+Es posible que el usuario cuente con un sistema operativo diferente en su ordenador. Para el curso se recomienda mantenerse en Windows.
+
+### R 
+
+##### Windows 
+
+1.  Ingresar a la página oficial de [R](https://cloud.r-project.org/) y descargar el programa 'exe'.
+2.  Una vez abierto, seguir las instrucciones del instalador y ejecutar una vez finalizado.
+
+##### Mac OS
+
+1.  Ingresar al siguiente [enlace](https://cran.r-project.org/bin/macosx/) para obtener la versión de este SO.
+2.  Seleccione el instalador correspondiente a su arquitectura.
+3.  Descargar el archivo '.pkg'.
+4.  Abrir el instalador y seguir las instrucciones hasta finalizar.
+
+##### Linux 
+
+En **Ubuntu/Debian**, R puede ser incorporado mediante los repositorios del sistema o siguiendo las instalaciones manuales. **Esto aplica si utiliza WSL también**.
+
+Opción A:
+
+1.  Dirigirse al siguiente [enlace](https://cran.r-project.org/bin/linux/).
+
+Opción B:
+
+1.  Abrir la consola y correr el siguiente script:
+
+```{bash}
+sudo apt update
+sudo apt install r-base
+```
+
+2.  Podrá acceder desde el cajón de aplicaciones.
+3.  Para comprobar la versión deberá correr:
+
+```{bash}
+R --version
+```
+
+Si se ha instalado correctamente, aparecerá la versión instalada.
+
+### R Studio
+
+##### Windows 
+
+1.  Ingresar a [RStudio](https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe) y descargar la versión para Windows.
+2.  Ejecutar el '.exe' y seguir los pasos del instalador.
+
+##### Mac OS
+
+1.  Ingresar a [RStudio](https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe) y descargar la versión de Mac '.dmg'
+2.  Abrir el archivo y arrastrar RStudio a la carpeta aplicaciones.
+
+**Nota:** Las versiones actuales de RStudio Desktop requieren versiones relativamente recientes de macOS; revisa los requisitos indicados por Posit antes de instalar.
+
+##### Linux
+
+1.  Ingresar a [RStudio](https://download1.rstudio.org/electron/windows/RStudio-2026.09.0-174.exe) y descargar la versión correspondiente de su distribución.
+2.  Otra opción es a través de la terminal mediante:
+
+```{bash}
+sudo apt install ./rstudio-*.deb
+```
+
+### Open Babel
+
+Open Babel permite convertir y manipular estructuras químicas en diferentes formatos.
+
+##### Windows 
+
+1.  Ingresar a la documentación oficial de Open Babel.
+2.  Selecciona la versión para Windows disponible.
+3.  Descargar el instalador correspondiente a tu sistema.
+4.  Ejecutar el instalador y seguir las instrucciones.
+5.  Finalizar la instalación.
+
+##### Mac OS
+
+Open Babel puede instalarse mediante un paquete disponible para MacOS mediante gestores de paquete. La opción más sencilla es utilizando **Homebrew**
+
+```{bash}
+brew install open-babel
+```
+
+En caso de no tener instalado **Homebrew** consultar [aquí](https://brew.sh/)
+
+##### Linux
+
+En Ubuntu/Debian puede instalarse mediante
+
+1.  Abrir la terminal y correr el siguiente script:
+
+```{bash}
+sudo apt update
+sudo apt install openbabel
+```
+
+2.  Comprobar la instalación:
+
+```{bash}
+obabel -V
+```
+
+### AutoDock Vina
+
+##### Windows 
+
+AutoDock Vina será utilizado como motor de acoplamiento molecular.
+
+Las versiones actuales de AutoDock Vina se distribuyen mediante el repositorio oficial del proyecto.
+
+1.  Descargar mediante este [enlace](https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_win.exe).
+
+2.  Una vez descargado se recomienda usar esta dirección generalmente:
+
+    `C:\AutoDockVina\`
+
+3.  Para usar vina desde la terminal siempre, agregar al entorno PATH de WIndows.
+
+##### Mac OS 
+
+1.  Descargar la versión correspondiente a macOS.
+2.  Instalar y seguir los pasos del ejecutable.
+
+##### Linux 
+
+1.  Descargar la versión correspondiente a su distribución.
+
+2.  La instalación se hará de esta manera:
+
+    ```{bash}
+    tar -xzf archivo_descargado.tar.gz
+    ```
+
+3.  Conceder permisos de ejecución:
+
+    ```{bash}
+    chmod +x vina*
+    ```
+
+4.  Al igual que en windows puede agregarse al entorno PATH.
+
+5.  Comprobar la versión instalada:
+
+    ```{bash}
+    vina --version
+    ```
+
+### AutoDockTools /MGLTools 
+
+AutoDockTools (ADT) forma parte del paquete MGLTools y proporciona herramientas gráficas para preparar receptores y ligandos y trabajar con AutoDock.
+
+##### Windows 
+
+1.  Ingresar a la página oficial de [MGLTools](https://ccsb.scripps.edu/mgltools/).
+2.  Buscar MGLTools 1.5.7.
+3.  Descargar la versión '.exe'.
+4.  Instalar y seguir las indicaciones necesarias.
+5.  Puede ser abierto mediante su ícono o a través del bash
+
+```{bash}
+adt
+```
+
+##### Mac OS
+
+1.  Ingresar a la página oficial de [MGLTools](https://ccsb.scripps.edu/mgltools/).
+2.  Descargar la versión proporcionada para su sistema '.dmg'.
+3.  Una vez instalado, buscar AutoDockTools o ADT en el menú de aplicaciones.
+
+**Nota:** Si MGLTools no funciona correctamente en un Mac moderno, será necesario utilizar una alternativa de compatibilidad, como una máquina virtual con un sistema operativo compatible.
+
+##### Linux 
+
+1.  Ingresar a la página oficial de [MGLTools](https://ccsb.scripps.edu/mgltools/).
+2.  Una vez instalado, el archivo debe ser parecido a este:
+
+```{bash}
+chmod +x mgltools_Linux-x86_64_1.5.7_Install
+```
+
+3.  Posteriormente, deberá instalar desde la términal:
+
+```{bash}
+./mgltools_Linux-x86_64_1.5.7_Install
+```
+
+4.  Para comprobar la instalación revisar que esté disponible en el menú de aplicaciones.
+
+### PyMOL
+
+##### Windows 
+
+1.  Ingresar a la página oficial de [PyMOL](https://www.pymol.org/).
+2.  Descargar el instalador para Windows.
+3.  Ejecutar el archivo '.exe'.
+4.  Sigue las instrucciones del instalador y finalizar la instalación.
+
+##### Mac OS
+
+1.  Ingresar a la página oficial de [PyMOL](https://www.pymol.org/).
+2.  Descargar el archivo '.dmg' correspondiente a macOS.
+3.  Abrir el archivo y arrastrar PyMOL a aplicaciones.
+4.  Abrir PyMOL.
+
+##### Linux 
+
+1.  Ingresar a la página oficial de [PyMOL](https://www.pymol.org/).
+2.  Descargar el archivo `.tar.bz2`
+3.  Abre una terminal y ve la carpeta donde descargaste el archivo.
+4.  Extraer el contenido:
+
+```{bash}
+tar -xjf PyMOL-*.tar.bz2
+```
+
+5.  Entrar a la carpeta resultante:
+
+```{bash}
+cd pymol
+```
+
+6.  Ejecutar PyMOL:
+
+```{bash}
+./pymol
+```
+
+**Nota:** Si la instalación no es correcta o no ejecuta el programa, puede revisar la documentación original de instalación para Linux.
