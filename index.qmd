@@ -91,7 +91,7 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 :::
 
 ::: {.column width="70%"}
-[**Sebastian Scalante Aguillón**](https://bioden.github.io) Estudiante de Biología interesado en biología computacional, descubrimiento de fármacos y biología molecular. Experiencia en bioinformática estructural, acoplamiento molecular, análisis ADMET y programación científica.
+[**Sebastian Scalante Aguillón**](https://bioden.github.io/bioden_website/integrantes/sscalante.html) Estudiante de Biología interesado en biología computacional, descubrimiento de fármacos y biología molecular. Experiencia en bioinformática estructural, acoplamiento molecular, análisis ADMET y programación científica.
 :::
 ::::::
 
