@@ -130,7 +130,7 @@ La fase práctica integra el uso de herramientas bioinformáticas e in silico ap
 
 ### Unidad 2: Transiciones entre la medicina tradicional al enfoque experimental
 
-- Métodos de extracción de comppuestos vegetales
+- Métodos de extracción de compuestos vegetales
 - Técnicas de cuantificación de principios activos
 - Estrategias de caracterización de preparados etnomedicinales
 
