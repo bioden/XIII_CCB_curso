@@ -19,7 +19,7 @@ Esta guía de instalación tiene como objetivo ser un soporte para el estudiante
 | **SwissTargetPrediction** | Predicción de posibles dianas | [Sitio Web](https://swisstargetprediction.ch/) |
 | **PubChem** | Consulta de estructuras y propiedades | [Sitio Web](https://pubchem.ncbi.nlm.nih.gov/) |
 | **Protein Data Bank (PDB)** | Obtención de estructuras proteicas | [Sitio Web](https://www.rcsb.org/) |
-| **ChemSpyder** | Consulta de estructuras y propiedades | [Sitio Web](https://www.chemspider.com/) |
+| **ChemSpider** | Consulta de estructuras y propiedades | [Sitio Web](https://www.chemspider.com/) |
 
 **Nota:** En caso de que PubChem o ChemSpyder puedan estar caídas, se pasarán durante el curso el material necesario. El cual también está disponible **aquí.**
 
